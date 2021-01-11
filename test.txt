@@ -1,0 +1,5 @@
+Welcome to Arquivo Encryption
+
+This a normal text file created to test the Script.
+
+The End-- Thank You.
