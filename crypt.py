@@ -1,5 +1,11 @@
+# A Symmetric Cryptographic Encryption and Decryption in Python
+# Arquivo Encryption v1.0 -- https://github.com/bst415/Arquivo-Encryption/
+# Author: Shiva Teja (B.S.T) -- https://github.com/bst415/
+
+
+# Function to automate the encryption process.
 def Encrypt(filename, key):
-		file = open(filename, "rb")
+	file = open(filename, "rb")
     data = file.read()
     file.close()
     
@@ -11,6 +17,7 @@ def Encrypt(filename, key):
     file.write(data)
     file.close()
 
+# Function to automate the decryption process.
 def Decrypt(filename, key):
     file = open(filename, "rb")
     data = file.read()
@@ -26,6 +33,7 @@ def Decrypt(filename, key):
 
 choice = ""
 err = ""
+# While loop iterartes untill user enters 3.
 while choice != 3:
     print(" ")
     print("_____________________________________________")
@@ -44,9 +52,11 @@ while choice != 3:
     if err:
         print(err)
         print(" ")
+	# Check for error if user enters wrong character.
     try:
         choice = int(input(Enter your choice: "))
         err=""
+	# Executes if entered value is invalid character.
     except:
         err = "Please select from given choice."
     if choice == 1:
@@ -89,8 +99,8 @@ while choice != 3:
         key = int(input("Enter your key (0-255): "))
         Decrypt(filename, key)
         print("______________________________________________")
-        printprint("|````````````````````````````````````````````|")
-        printprintprint("|    File Decryption is done succssfully !   |")
+        print("|````````````````````````````````````````````|")
+        print("|    File Decryption is done succssfully !   |")
         print("|____________________________________________|")
         print("``````````````````````````````````````````````")
         print("")
