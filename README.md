@@ -1,7 +1,7 @@
 # Arquivo-Encryption
- Arquivo Encryption is a Simple Encryption and Decryption Cryptographic tool for encrypting and decrypting our files.
- Using his tool you can able to encrypt (Images/Videos/Audios/Text/) and any other format files as well.
- Same key is required to decrypt the file that is used while encryption.
+  Arquivo Encryption is a Simple Encryption and Decryption Cryptographic tool for encrypting and decrypting our files.
+  Using his tool you can able to encrypt (Images/Videos/Audios/Text/) and any other format files as well.
+  Same key is required to decrypt the file that is used while encryption.
 
 ## Installation:
 
@@ -24,6 +24,7 @@
 4) If the required file is not in the same directory then you need to mention the exact path of the file with file name and it's extension.
 
 ### Dependencies:
- Python v3.x is required.
+  Python v3.x is required.
+
 ### Disclaimer:
- Please read the license information.
+  Please read the license information.
