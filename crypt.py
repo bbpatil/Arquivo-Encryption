@@ -1,7 +1,7 @@
 # A Symmetric Cryptographic Encryption and Decryption in Python
 # Arquivo Encryption v1.0 -- https://github.com/bst415/Arquivo-Encryption/
 # Author: Shiva Teja (B.S.T) -- https://github.com/bst415/
-# Created on 11 January 2021
+# Created on 11 January 2021.
 
 # Function to automate the encryption process.
 def Encrypt(filename, key):
