@@ -1,5 +1,5 @@
 # Arquivo-Encryption
-> Arquivo Encryption is a Simple Encryption and Decryption Cryptographic tool for encrypting and decrypting our files.
+> Arquivo Encryption is a Simple Symmetric Encryption and Decryption Cryptographic tool for encrypting and decrypting our files.
 > Using his tool you can able to encrypt (Images/Videos/Audios/Text/) and any other format files as well.
 > Same key is required to decrypt the file that is used while encryption.
 
